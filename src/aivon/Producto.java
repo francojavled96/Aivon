@@ -58,6 +58,13 @@ public class Producto {
     public double calcularGanancia() {
         return precioVenta - precioCosto;
     }
+    
+    public boolean tieneGananciaAlta() {
+    return calcularGanancia() > 500;
+}
+    public double precioFinal() {
+    return precioVenta;
+}
 }
 
     

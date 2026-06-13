@@ -63,9 +63,9 @@ public class Revendedor {
         destino.depositarDinero(monto);
     }
 
-    // ==========================
+    
     // GETTERS
-    // ==========================
+   
 
     public double getSaldoCuenta() {
         return saldoCuenta;
@@ -83,17 +83,17 @@ public class Revendedor {
         return telefono;
     }
 
-    // ==========================
+   
     // TEST G y H
-    // ==========================
+    
 
     public String convertirMoneda(String valor) {
         return valor;
     }
 
-    // ==========================
+    
     // TEST J
-    // ==========================
+    
 
     public void pagoDemorado(long milisegundos)
             throws InterruptedException {

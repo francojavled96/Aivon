@@ -29,6 +29,15 @@ public class Transportista {
                 + pedido.getDomicilio()
         );
     }
+    
+    
+    public boolean estaDisponible() {
+    return true; // si tenes estado/capacidad
+}
+    
+    public boolean puedeEntregar(int cantidadPedidos) {
+    return cantidadPedidos <= 10;
+}
 }
     
 

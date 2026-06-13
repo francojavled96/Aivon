@@ -19,6 +19,13 @@ public class DetalleCaja {
     public double calcularSubtotal() {
         return producto.getPrecioVenta() * cantidad;
     }
+    
+    public double aplicarDescuento(double porcentaje) {
+    return calcularSubtotal() * (1 - porcentaje / 100);
+}
+    public boolean esCompraGrande() {
+    return calcularSubtotal() > 10000;
+}
 }
 
     

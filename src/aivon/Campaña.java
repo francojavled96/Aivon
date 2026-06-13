@@ -67,6 +67,8 @@ public class Campaña {
                 ", activa=" + activa +
                 '}';
     }
+    
+    
 }
 
 
